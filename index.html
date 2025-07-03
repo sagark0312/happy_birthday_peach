@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="hearts">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        
+        <header class="fade-in">
+            <h1>Happy Birthday <span class="highlight">My Love</span></h1>
+            <p class="subtitle">A celebration of you and our beautiful memories</p>
+        </header>
+        
+        <nav class="fade-in-delay">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="memories.html">Our Memories</a></li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section class="hero slide-in">
+                <div class="hero-content">
+                    <h2>To The Most Amazing Person</h2>
+                    <p>On your special day, I want to remind you how much you mean to me. Every moment with you is a treasure I cherish deeply.</p>
+                    <button class="cta-button pulse" onclick="showMessage()">Click for a Surprise</button>
+                </div>
+                <div class="hero-image">
+                    <img src="index.jpg" alt="Couple silhouette">
+                </div>
+            </section>
+            
+           
+        </main>
+        
+        <footer class="fade-in-delay">
+            <p>Created with love for the most special person in my life</p>
+            <div class="social-icons">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-kiss-wink-heart"></i>
+                <i class="fas fa-heartbeat"></i>
+            </div>
+        </footer>
+    </div>
+    
+    <div class="birthday-message hidden">
+        <div class="message-box">
+            <span class="close-btn" onclick="hideMessage()">&times;</span>
+            <h2>Happy Birthday!</h2>
+            <p>Every day with you is a gift I treasure. Today, I celebrate you - the most beautiful, kind, and amazing person I know. May this year bring you all the happiness you bring to others, especially to me. I love you more than words can express.</p>
+            <div class="hearts-inside">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
